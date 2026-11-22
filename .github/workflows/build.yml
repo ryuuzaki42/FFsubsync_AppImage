@@ -74,7 +74,8 @@ jobs:
         rm -v python.png python*.desktop .DirIcon AppRun # Remove folders/files not needed
 
         #find . | grep -E "\.png|\.jpg|\.svg"
-        wget -q https://raw.githubusercontent.com/smacke/ffsubsync/refs/heads/master/resources/img/subsync.png -O FFsubsync.png
+        #wget -q https://raw.githubusercontent.com/smacke/ffsubsync/refs/heads/master/resources/img/subsync.png -O FFsubsync.png
+        wget -q https://github.com/ryuuzaki42/FFsubsync_AppImage/releases/download/0.5.1/FFsubsync.png # Small png file
 
         #find . | grep ".desktop"
 
